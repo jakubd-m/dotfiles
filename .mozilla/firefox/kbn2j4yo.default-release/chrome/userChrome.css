@@ -1,0 +1,10 @@
+#BMB_bookmarksShowAllTop,
+#BMB_bookmarksShowAllTop + menuseparator,
+#BMB_viewBookmarksSidebar,
+#BMB_searchBookmarks,
+#BMB_bookmarksToolbar,
+#menu_searchBookmarks,
+#menu_bookmarksSidebar,
+#bookmarksToolbarFolderMenu {
+display: none !important;
+}
