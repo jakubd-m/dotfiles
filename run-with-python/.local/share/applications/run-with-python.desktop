@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Run with Python
+Exec=bash -c 'python "$1"; echo ""; read -p "Press Enter to close..."' -- %f
+Type=Application
+Terminal=true
+MimeType=text/x-python;
