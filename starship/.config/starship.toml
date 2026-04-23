@@ -6,6 +6,7 @@ format = """
 [](fg:surface1)\
 $os\
 $username\
+$sudo\
 [](bg:peach fg:surface1)\
 $directory\
 [](bg:green fg:peach)\
@@ -201,3 +202,9 @@ vimcmd_visual_symbol = '[](bold fg:yellow)'
 [cmd_duration]
 min_time = 1000
 format = "[](fg:yellow bg:none)[⏱ $duration](bg:yellow fg:crust)[ ](fg:yellow bg:none)"
+
+[sudo]
+disabled = false
+style = "bg:surface1 fg:red"
+format = '[$symbol ]($style)'
+symbol = ""
