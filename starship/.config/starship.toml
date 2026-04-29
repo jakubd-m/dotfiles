@@ -26,9 +26,8 @@ $python\
 $docker_context\
 $conda\
 $pixi\
-[](bg:mauve fg:blue)\
+[ ](fg:blue)\
 $time\
-[ ](fg:mauve)\
 $cmd_duration\
 $line_break$character"""
 
@@ -183,7 +182,7 @@ format = '[[ $symbol( $version)( $environment) ]($style)]($style)'
 disabled = false
 time_format = "%H:%M:%S"
 style = "bg:mauve fg:crust"
-format = '[[  $time ]($style)]($style)'
+format = '[](fg:mauve bg:none)[  $time ]($style)[ ](fg:mauve bg:none)'
 
 [line_break]
 disabled = false
