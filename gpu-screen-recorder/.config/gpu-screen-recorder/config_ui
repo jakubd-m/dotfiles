@@ -8,7 +8,7 @@ main.software_encoding_warning_shown false
 main.tint_color intel
 main.wayland_warning_shown true
 record.container mp4
-record.pause_unpause_hotkey 92 16
+record.pause_unpause_hotkey 91 16
 record.record_options.advanced_view true
 record.record_options.audio_codec opus
 record.record_options.audio_track_item false [add_audio_track]
@@ -44,9 +44,9 @@ record.record_options.webcam_x 0
 record.record_options.webcam_y 0
 record.save_directory /home/jakub/Videos
 record.save_video_in_game_folder false
-record.start_stop_hotkey 94 16
-record.start_stop_region_hotkey 94 4
-record.start_stop_window_hotkey 94 1
+record.start_stop_hotkey 90 16
+record.start_stop_region_hotkey 0 0
+record.start_stop_window_hotkey 0 0
 replay.container mp4
 replay.only_start_replay_if_power_supply_connected false
 replay.record_options.advanced_view true
@@ -84,13 +84,13 @@ replay.record_options.webcam_x 0
 replay.record_options.webcam_y 0
 replay.replay_storage ram
 replay.restart_replay_on_save false
-replay.save_10_min_hotkey 91 16
-replay.save_1_min_hotkey 90 16
+replay.save_10_min_hotkey 0 0
+replay.save_1_min_hotkey 0 0
 replay.save_directory /home/jakub/Videos
 replay.save_hotkey 87 16
 replay.save_video_in_game_folder false
-replay.start_stop_hotkey 18 16
-replay.time 30
+replay.start_stop_hotkey 0 0
+replay.time 60
 replay.turn_on_replay_automatically_mode turn_on_at_system_startup
 screenshot.change_image_resolution false
 screenshot.custom_script 
@@ -107,8 +107,8 @@ screenshot.save_screenshot_to_clipboard false
 screenshot.save_screenshot_to_disk true
 screenshot.show_notifications false
 screenshot.take_screenshot_hotkey 86 16
-screenshot.take_screenshot_region_hotkey 102 4
-screenshot.take_screenshot_window_hotkey 102 1
+screenshot.take_screenshot_region_hotkey 0 0
+screenshot.take_screenshot_window_hotkey 0 0
 screenshot.use_led_indicator false
 streaming.custom.container flv
 streaming.custom.key 
@@ -150,6 +150,6 @@ streaming.record_options.webcam_x 0
 streaming.record_options.webcam_y 0
 streaming.rumble.key 
 streaming.service twitch
-streaming.start_stop_hotkey 93 16
+streaming.start_stop_hotkey 0 0
 streaming.twitch.key 
 streaming.youtube.key 
